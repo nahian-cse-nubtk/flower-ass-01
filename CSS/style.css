@@ -1,7 +1,8 @@
-*body{
-    margin: 0 auto;
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-
 
 /* for noto sharif google font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
@@ -254,6 +255,9 @@ hr{
 
 .news-letter{
     background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 533px;
     width: 100%;
     margin-bottom: 50px;
@@ -283,4 +287,31 @@ hr{
     justify-content: center;
     align-items: center;
 
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-content: center;
+    width: 1120px;
+    height: 248px;
+    margin: 0 auto;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first-list li{
+    margin-bottom: 26px;
+}
+.Second-list li{
+    margin-bottom: 26px;
 }
