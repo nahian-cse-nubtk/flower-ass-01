@@ -59,7 +59,9 @@ body, html {
     color: rgba(255, 255, 255, 1);
 }
 
-/*section wise style*/
+/*section wise style or indivisual part style*/
+
+/* navber css */
 
 nav{
     display: flex;
@@ -77,6 +79,8 @@ nav{
 .nav-first-li{
     font-weight: 600;
 }
+
+/* hero section css */
 
 .banner-title{
     font-size: 65px;
@@ -103,6 +107,8 @@ nav{
     font-size: 22px;
 }
 
+/* our section css */
+
 .palnt-title{
     text-align: center;
     font-size: 50px;
@@ -111,6 +117,8 @@ nav{
 .palnt-decription{
     text-align: center;
 }
+
+/* our flower and plant section */
 
 .flower-card{
     display: grid;
@@ -138,6 +146,8 @@ nav{
 .amount{
     font-weight: bold;
 }
+
+/* flower store, flower and plant lover section */
 
 .flower-store-image{
     height: 597px;
@@ -170,6 +180,8 @@ nav{
 .flower-store-content{
     margin-top: 220px;
 }
+
+/* out deals part */
 
 .deals-heading{
     font-size: 50px;
@@ -255,6 +267,7 @@ hr{
 .deal-section{
     margin-bottom: 120px;
 }
+ /* news letter part */
 
 .news-letter{
     background-image: url(../assets/news-letter-bg.png);
@@ -276,6 +289,7 @@ hr{
     width: 644px;
     height: 40px;
     font-size: 16px;
+    padding-left: 10px;
 }
 .subscribe-btn{
     width: 186px;
@@ -291,6 +305,7 @@ hr{
     align-items: center;
 
 }
+/* footer section */
 
 .footer-section{
     display: grid;
