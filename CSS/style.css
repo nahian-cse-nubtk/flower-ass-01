@@ -463,6 +463,7 @@ hr{
     }
     .icons{
         justify-content: left;
+        padding-bottom: 100px;
     }
 
     .card-image{
