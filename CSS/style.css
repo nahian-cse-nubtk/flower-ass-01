@@ -262,7 +262,7 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     height: 533px;
-    max-width: 100%;
+    max-width: 100vw;
     margin-bottom: 50px;
 }
 
@@ -299,7 +299,7 @@ hr{
     width: 1120px;
     height: 248px;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .icon{
     width: 36px;
@@ -322,30 +322,36 @@ hr{
 
 /*moblile responsive*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
   *body{
     margin: o auto;
     padding: 10px;
     width: 100%;
+    /* border: 2px solid black; */
   }
     .headen{
         visibility: hidden;
     }
     .nav{
 
-        width: 230px;
+        width: 400px;
         height: 38px;
-        margin-left: 16px;
-        margin-right: 16px;
+        /* padding-left: 30px; */
 
+    }
+    .navber-logo{
+        padding-left: 50px;
+    }
+    .nav-li-last{
+        padding-right: 400px;
     }
 
     .banner{
         flex-direction: column-reverse;
         justify-content: center;
         margin-bottom: 200px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         margin-top: 300px;
         max-width: 500px;
 
@@ -359,10 +365,12 @@ hr{
     }
     .flower-card{
         grid-template-columns: repeat(2, 1fr);
-        margin: 30px auto;
+        margin-left: 0 ;
+        padding-left: 0;
     }
     .flower-store{
         flex-direction: column;
+        margin-left: 0 ;
     }
 
     .footer-section{
@@ -373,7 +381,7 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 20px;
         padding-bottom: 100px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
         max-width: 576px;
 
     }
@@ -407,6 +415,7 @@ hr{
         padding-left: 100px;
         text-align: center;
         max-width: 576px;
+        /* margin-left: 50px; */
     }
     .palnt-decription br{
         display: none;
@@ -415,10 +424,22 @@ hr{
         display: none;
     }
     .news-letter{
-       margin-top: 100px
+        width: px;
+       margin-top: 200px;
+       margin-right: -50px
+
     }
 
+    .footer-section{
+        /* margin-left: 100px; */
 
+        padding-bottom: 200px;
+        padding-left: 50px;
+
+    }
+    .icons{
+        justify-content: left;
+    }
 
 
 
