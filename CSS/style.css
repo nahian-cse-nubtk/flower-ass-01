@@ -345,7 +345,6 @@ hr{
 
     margin: 0 20px 0;
 
-    /* border: 2px solid black; */
   }
   .display-none{
     display: none;
@@ -357,9 +356,6 @@ hr{
     .navber-logo{
         padding-left: 5px;
     }
-    /* .nav-li-last{
-        padding-right: 400px;
-    } */
 
     nav{
         width: 350px;
@@ -375,7 +371,6 @@ hr{
         flex-direction: column-reverse;
         justify-content: center;
         margin-bottom: 200px;
-        /* margin-left: 100px; */
         margin-top: 300px;
         max-width: 370px;
         padding-left: 10px;
@@ -447,9 +442,6 @@ hr{
         width: 361px;
         height: 400px;
     }
-    /* .our-plant-text-section{
-        margin-left: 40px;
-        text-align: center; */
 
     .palnt-title, .palnt-decription,.deals-heading, .deals-desciption{
         padding-left: 10px;
@@ -467,9 +459,6 @@ hr{
         width: 383px;
         height: 276px;
        margin-top: 150px;
-
-
-
     }
 
     .news-letter-heading{
@@ -483,7 +472,7 @@ hr{
         width: 86px;
     }
     .footer-section{
-        /* margin-left: 100px; */
+
 
         padding-bottom: 200px;
         padding-left: 50px;
@@ -504,11 +493,3 @@ hr{
     }
 
 }
-/* @media (max-width: 768px) {
-    body {
-        padding-left: 10px;
-    }
-    .news-letter{
-        padding-left: 0;
-    }
-} */
