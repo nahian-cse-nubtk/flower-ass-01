@@ -367,11 +367,11 @@ hr{
     }
     .banner-title{
         font-size: 24px;
-        
+
     }
 
     .banner-image{
-    max-width: 393px;
+    max-width: 370px;
     height: 245px;
     padding-top: 0px;
 
@@ -447,7 +447,7 @@ hr{
         display: none;
     }
     .news-letter{
-        width: 380px;
+        width: 383px;
         height: 276px;
        margin-top: 150px;
 
