@@ -59,7 +59,7 @@ body, html {
     color: rgba(255, 255, 255, 1);
 }
 
-
+/*section wise style*/
 
 nav{
     display: flex;
@@ -336,18 +336,22 @@ hr{
     .headen{
         visibility: hidden;
     }
-    .nav{
 
-        width: 400px;
-        height: 38px;
-        /* padding-left: 30px; */
-
-    }
     .navber-logo{
         padding-left: 5px;
     }
-    .nav-li-last{
+    /* .nav-li-last{
         padding-right: 400px;
+    } */
+
+    nav{
+        width: 380px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .nav-lis{
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .banner{
@@ -378,6 +382,7 @@ hr{
 
     .footer-section{
         grid-template-columns: 1fr;
+        width: 365px;
     }
 
     .deals-images{
@@ -432,12 +437,23 @@ hr{
         display: none;
     }
     .news-letter{
-        width: 361px;
-       margin-top: 200px;
-       
+        width: 393px;
+        height: 276px;
+       margin-top: 150px;
+
 
     }
 
+    .news-letter-heading{
+        padding-top: 100px;
+        font-size: 20px;
+    }
+    .news-letter-input-field{
+        width: 200px;
+    }
+    .subscribe-btn{
+        width: 86px;
+    }
     .footer-section{
         /* margin-left: 100px; */
 
