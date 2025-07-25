@@ -315,9 +315,11 @@ hr{
 
 .first-list li{
     margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.5);
 }
 .Second-list li{
     margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /*moblile responsive*/
