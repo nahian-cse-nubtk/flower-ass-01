@@ -325,9 +325,9 @@ hr{
 @media screen and (max-width: 768px) {
 
   *body{
-    margin: o auto;
-    padding: 10px;
-    width: 100%;
+
+    margin: 0 20px 0;
+
     /* border: 2px solid black; */
   }
   .display-none{
@@ -345,7 +345,7 @@ hr{
     } */
 
     nav{
-        width: 380px;
+        width: 350px;
         justify-content: space-between;
         text-align: center;
     }
@@ -360,10 +360,16 @@ hr{
         margin-bottom: 200px;
         /* margin-left: 100px; */
         margin-top: 300px;
-        max-width: 500px;
+        max-width: 370px;
+        padding-left: 10px;
 
 
     }
+    .banner-title{
+        font-size: 24px;
+        
+    }
+
     .banner-image{
     max-width: 393px;
     height: 245px;
@@ -375,9 +381,13 @@ hr{
         margin-left: 0 ;
         padding-left: 0;
     }
+    .our-plant-sec{
+        padding-left: 10px;
+    }
     .flower-store{
         flex-direction: column;
         margin-left: 0 ;
+        padding-left: 10px;
     }
 
     .footer-section{
@@ -437,9 +447,10 @@ hr{
         display: none;
     }
     .news-letter{
-        width: 393px;
+        width: 380px;
         height: 276px;
        margin-top: 150px;
+
 
 
     }
@@ -475,8 +486,12 @@ hr{
         width: 171px;
     }
 
-
-
-
-
+}
+/* @media (max-width: 768px) {
+    body {
+        padding-left: 10px;
     }
+    .news-letter{
+        padding-left: 0;
+    }
+} */
