@@ -330,6 +330,9 @@ hr{
     width: 100%;
     /* border: 2px solid black; */
   }
+  .display-none{
+    display: none;
+  }
     .headen{
         visibility: hidden;
     }
@@ -341,7 +344,7 @@ hr{
 
     }
     .navber-logo{
-        padding-left: 50px;
+        padding-left: 5px;
     }
     .nav-li-last{
         padding-right: 400px;
@@ -382,13 +385,14 @@ hr{
         row-gap: 20px;
         padding-bottom: 100px;
         /* padding-left: 90px; */
-        max-width: 576px;
+        width: 361px;
+        margin-left: 10px;
 
     }
 
     .deals-right-part,.deals-image-2, .deals-image-1{
 
-    max-width: 576px;
+    max-width: 361px;
     height: 201px;
     border-radius: 20px;
 
@@ -403,18 +407,22 @@ hr{
         font-size: 16px;
     }
     .flower-store-content{
-        width: 500px;
+        width: 361px;
         margin-top: 10px;
         justify-content: center;
+    }
+    .flower-store-image{
+        width: 361px;
+        height: 400px;
     }
     /* .our-plant-text-section{
         margin-left: 40px;
         text-align: center; */
 
     .palnt-title, .palnt-decription,.deals-heading, .deals-desciption{
-        padding-left: 100px;
+        padding-left: 10px;
         text-align: center;
-        max-width: 576px;
+        max-width: 361px;
         /* margin-left: 50px; */
     }
     .palnt-decription br{
@@ -424,9 +432,9 @@ hr{
         display: none;
     }
     .news-letter{
-        width: px;
+        width: 361px;
        margin-top: 200px;
-       margin-right: -50px
+       
 
     }
 
@@ -441,9 +449,14 @@ hr{
         justify-content: left;
     }
 
+    .card-image{
+        width: 171px;
+        height: 196px;
+    }
 
-
-
+    .btn-card{
+        width: 171px;
+    }
 
 
 
